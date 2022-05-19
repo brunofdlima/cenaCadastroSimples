@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="/css/styles.css">
+
+  <title>Cadastro Cli</title>
+</head>
+<body>
+
+  <div class="cadastro">
+    <div class="conteudoCad">
+      <div class="leftSide">
+        <img src="/image/ilustracao.png">
+      </div>
+      <form>
+        <div class="topoForm">
+          <div class="topoLeft">
+            <h1>Cadastro</h1>
+          </div>
+          <div class="topoRight">
+            <button class="topo">Entrar</button>
+          </div>
+        </div>
+        <div class="formContent">
+          <div class="grid">
+            <label class="padrao1" for="nome">Nome</label><br>
+            <input class="padrao" type="text" name="nome" placeholder="Bruno" required>
+          </div>
+
+          <div class="grid">
+            <label class="padrao1" for="sobrenome">Sobrenome</label><br>
+            <input class="padrao" type="text" name="sobrenome" placeholder="Ferreira" required>
+          </div>
+
+          <div class="grid">
+            <label class="padrao1" for="email">E-mail</label><br>
+            <input class="padrao" type="email" name="email" placeholder="---@gmail.com.br" required>
+          </div>
+
+          <div class="grid">
+            <label class="padrao1" for="contato">Contato</label><br>
+            <input class="padrao" type="email" name="email" placeholder="(xx) xxxxx-xxxx" required>
+          </div>
+
+          <div class="grid">
+            <label class="padrao1" for="senha">Senha</label><br>
+            <input class="padrao" type="password" name="password" placeholder="******" required>
+          </div>
+
+          <div class="grid">
+            <label class="padrao1" for="repetirsenha">Confirme senha</label><br>
+            <input class="padrao" type="password" name="password" placeholder="******" required>
+          </div>
+        </div>
+        <div class="selection">
+          <input type="radio" id="masc" name="type" value="Masculino">
+          <label for="masc">Masculino</label>
+          <input type="radio" id="fem" name="type" value="Feminino">
+          <label for="fem">Feminino</label>
+          <input type="radio" id="outros" name="type" value="Outros">
+          <label for="outros">Outros</label>
+          <input type="radio" id="non" name="type" value="non">
+          <label for="non">Não quero reponder</label>
+        </div>
+
+        <div class="footer">
+          <button class="send">Enviar</button>
+        </div>
+      </form>
+    </div>
+  </div>
+</body>
+</html>
